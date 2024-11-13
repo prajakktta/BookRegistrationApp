@@ -12,7 +12,7 @@ public class jdbctest {
 		Class.forName("org.postgresql.Driver"); //This can possibly throw ClassNotFound Exception
 		
 		//Step 2: Establish the database connection
-		Connection con = DriverManager.getConnection("jdbc:postgresql://127.0.0.1:5432/BookRegistrationApp", "postgres", "pilsch");
+		Connection con = DriverManager.getConnection("");//to establish the connection write the jbdc driver and the database name and password with the correct port numbers and user name
 		
 		System.out.println("JDBC connected successfully");
 		}
